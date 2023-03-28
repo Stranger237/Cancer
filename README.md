@@ -13,9 +13,9 @@ We are going to recognise mammography images for cancer. The model must answer t
 For the recognition task, convolutional neural networks can be used
 CNNs are powerful for analyzing images because pattern-specific 
 filters can preserve the picture’s spatial features. CNNs often outperform dense neural network methods because fully connected architectures flatten input images, overlooking vital spatial patterns. 
-
 ### What is your data? What is the source of your data? (Modality, features, shape, and anything you see is vital about your data).
-
+https://www.kaggle.com/datasets/skooch/ddsm-mammography
+This dataset consists of images from the DDSM and CBIS-DDSM datasets. The images have been pre-processed and converted to 299x299 images by extracting the ROIs. The data is stored as tfrecords files for TensorFlow
 ### Which metrics do you choose?Justify your answer.
 The ROC-AUC is a more informative 
 metric, as it allows readers to compare the true-positive and falsepositive rates. Researchers have recently implemented complex CNN block combinations like squeeze-excitation and attention networks to enhance model performance.
