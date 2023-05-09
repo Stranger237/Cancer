@@ -30,3 +30,20 @@ The cost of misprediction by using AI in mammography can also vary depending on 
 
 Value or profit of using AI in mammography can be measured in several ways. One way is to evaluate the accuracy and efficiency of AI algorithms in detecting breast cancer compared to traditional mammography methods. This can lead to earlier detection of cancer, reduced healthcare costs, and improved patient outcomes. Another way is to assess the potential cost savings from reducing unnecessary biopsies and treatments resulting from false positives. Additionally, AI can improve workflow efficiency, allowing radiologists to focus on more complex cases and increasing patient throughput. These factors can all contribute to the overall value and profitability of using AI in mammography.
 
+### Results
+Accuracy: 0.9755
+Precision: 0.9756
+Recall: 0.9755
+F1 Score: 0.9755
+ROC AUC Score: 0.9949
+Cohen Kappa Score: 0.9508
+		Classification Report:
+               precision    recall  f1-score   support
+
+           B       0.98      0.98      0.98       418
+           M       0.97      0.97      0.97       359
+
+    accuracy                           0.98       777
+   macro avg       0.98      0.98      0.98       777
+weighted avg       0.98      0.98      0.98       777
+
